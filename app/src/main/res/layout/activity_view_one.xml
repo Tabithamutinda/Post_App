@@ -35,6 +35,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvPostTitle" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvComments"
         android:layout_width="409dp"
         android:layout_height="630dp"
         android:layout_marginStart="10dp"
